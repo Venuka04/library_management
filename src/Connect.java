@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class Connect {
     private static final String URL = "jdbc:mysql://localhost:3306"; // Ensure the port and host are correct
     private static final String USER = "root"; // Your DB username
-    private static final String PASSWORD = "edureka"; // Your DB password
+    private static final String PASSWORD = ""; // Your DB password
 
     public static Connection connect() {
         Connection connection = null;
